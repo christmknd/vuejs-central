@@ -11,3 +11,16 @@ export default {
          Simple, minimaliste,efficace</p>
     </div>
 </template>
+
+<style>
+.homepage{
+    float:center;
+    margin:50px;
+    padding:50px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+</style>

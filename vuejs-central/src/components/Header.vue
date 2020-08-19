@@ -5,7 +5,19 @@ export default {
 </script>
 
 <template>
-    <div class="nav">
-        
-    </div>
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Online Calculator</a>
+        </nav>
 </template>
+
+<style>
+    .menu{
+        margin-top:25px;
+        margin-bottom: 25px;
+    }
+
+    .menu a {
+        text-decoration: none;
+    }
+</style>

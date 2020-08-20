@@ -1,4 +1,13 @@
+<script>
+import Contact from './components/Contact';
 
+export default {
+  name: 'App',
+  components: {
+    Contact
+  }
+}
+</script>
 <template>
   <div id="app">
     <div id="nav">
@@ -6,6 +15,9 @@
       <router-link to="/calcul">Calculator</router-link>
     </div>
     <router-view/>
+    <div id="footer">
+      <Contact/>
+    </div>
   </div>
 </template>
 
@@ -29,5 +41,10 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#footer{
+  float:center;
+  padding-top:150px;
 }
 </style>

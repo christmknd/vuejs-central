@@ -1,6 +1,6 @@
 <script>
 export default {
-    name:'Footer'
+    name:'Contact'
 }
 </script>
 
@@ -8,8 +8,7 @@ export default {
     <div>
         <p>Développé par Christ Mokonda</p>
         <ul class="contact">
-            <li> Github : </li>
-            <li>Site Internet : </li>
+            <li> Github : https://github.com/christmknd </li>
         </ul>
     </div>
 </template>

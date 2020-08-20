@@ -10,6 +10,7 @@ export default {
         <p>Bienvenue sur <strong>Vue Central</strong>. <br>
          Simple, minimaliste,efficace</p>
     </div>
+   
 </template>
 
 <style>
